@@ -1,0 +1,19 @@
+{
+  "name": "french-train-identifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Identify french trains by their serial number",
+  "keywords": [
+    "trains"
+  ],
+  "author": "luclu7",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luclu7/french-train-identifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luclu7/french-train-identifier/issues"
+  },
+  "homepage": "https://github.com/luclu7/french-train-identifier#readme",
+  "license": "MIT"
+}
