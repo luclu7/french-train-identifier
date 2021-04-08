@@ -38,7 +38,7 @@ const listOfRegex = [
         model: "XTER"
     },
     {
-        regex: /X73[5-8][0-9][0-9]$/,
+        regex: /X73[5-9][0-9][0-9]$/,
         model: "ATER"
     },
     {
@@ -48,7 +48,7 @@ const listOfRegex = [
 ]
 
 module.exports = function getTrainModel(trainSerial) {
-    let matchedModel;
+    let matchedModel = "";
     listOfRegex.forEach(regexItem => {
         if(regexItem.regex.test(trainSerial)){
             matchedModel = regexItem.model;
