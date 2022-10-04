@@ -1,6 +1,6 @@
 {
   "name": "french-train-identifier",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "description": "Identify french trains by their serial number",
   "keywords": [
