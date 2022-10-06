@@ -1,3 +1,6 @@
+/* french-train-identifier
+by luclu7 with a lot of time */
+
 'use strict';
 
 const listOfRegex = [
